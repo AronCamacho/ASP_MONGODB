@@ -1,0 +1,152 @@
+﻿/Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets.
+
+.container-fluid {
+    color: #ff0000;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+    color: #ff0000;
+    background-color: #ff0000;
+}
+
+a {
+    font:italic;
+    color: #ff0000;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #ffeaa7;
+    background-color: #ffeaa7;
+    border-color: #ffeaa7;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+/*@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap");*/
+
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background: #dcd9cd;
+}
+
+ul {
+    position: relative;
+}
+
+ul li {
+        list-style: none;
+        text-align: center;
+    }
+
+ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 3em;
+            padding: 5px 20px;
+            display: inline-flex;
+            font-weight: 700;
+            transition: 0.5s;
+        }
+
+ul:hover li a {
+        color: #000;
+        background: transparent;
+    }
+
+ul li a:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 5em;
+        color: rgba(0,0,0,0.1);
+        border-radius: 50%;
+        z-index: -1;
+        opacity: 0;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 500px;
+        transition: letter-spacing 0.5s, left 0.5s;
+    }
+
+ul li a:hover:before {
+        content: attr(data-text0);
+        opacity: 1;
+        left: 50%;
+        letter-spacing: 10px;
+        width: 1800px;
+        height: 1800px;
+    }
+
+ul li:nth-child(6n+1) a:before {
+        background: #0470fe;
+    }
+
+ul li:nth-child(6n+2) :active:before {
+        background: #ff7675;
+    }
+
+ul li:nth-child(6n+3) a:before {
+        background: #1582fe;
+    }
+
+ul li:nth-child(6n+4) a:before {
+        background: #a29bfe;
+    }
+
+ul li:nth-child(6n+5) a:before {
+        background: #fd79a8;
+    }
+
+ul li:nth-child(6n+3) a:before {
+        background: #ffeaa7;
+    }
+    */
